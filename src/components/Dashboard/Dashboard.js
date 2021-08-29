@@ -5,7 +5,7 @@ import Info from '../Dashboard/Info';
 import Main from '../Dashboard/Main/Main';
 import Form from '../Dashboard/Main/Form/Form';
 import Box from '@material-ui/core/Box';
-import { PushToTalkButton,PushToTalkButtonContainer,ErrorPanel} from '@speechly/react-ui'
+import { PushTo,PushToTalkButtonContainer,ErrorPanel} from '@speechly/react-ui'
 
 
 
@@ -54,10 +54,10 @@ const Dashboard = () => {
         <div>
          <Grid className={classes.grid} container spacing={2} alignItems="center"  spacing={2}  style={{ height:'100vh' ,width:'100%'}}>
             <Grid item xs={15} sm={4}>
-            <PushToTalkButtonContainer>
+            {/* <PushToTalkButtonContainer>
                 <PushToTalkButton/>
                 <ErrorPanel/>
-              </PushToTalkButtonContainer>
+              </PushToTalkButtonContainer> */}
               <Main/>
               
              </Grid>

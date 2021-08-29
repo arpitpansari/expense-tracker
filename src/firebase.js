@@ -4,13 +4,13 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const app = firebase.initializeApp({
-  apiKey : "AIzaSyAR3v0VXi6O2gSmD25GKsDP0J1flJajhtw" , 
-  authDomain : "rakuten-faa63.firebaseapp.com" , 
-  projectId : "rakuten-faa63" , 
-  storageBucket : "rakuten-faa63.appspot.com" , 
-  messagingSenderId : "96315073770" , 
-  appId : "1: 96315073770: web: a0dedc801b752f0c5ba393" , 
-  measurementId : "G-5RGV20PS47"
+  apiKey: "AIzaSyC10G5qaUPrCuW-0Cq1bX-63ya-fykZRUE",
+  authDomain: "something-d40eb.firebaseapp.com",
+  projectId: "something-d40eb",
+  storageBucket: "something-d40eb.appspot.com",
+  messagingSenderId: "229377851990",
+  appId: "1:229377851990:web:13d6a35ce5b9af2bec71f7",
+  measurementId: "G-Z2F6JRKCYW"
   });
 
   const firestore = app.firestore();

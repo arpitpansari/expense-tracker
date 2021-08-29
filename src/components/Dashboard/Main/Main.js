@@ -67,9 +67,6 @@ const Main = () => {
              <CardContent>
              
                <Typography align="center" variant="h5">BALANCE: {balance}Rs </Typography>
-               <Typography align="center" variant="subtitle2" style={{ lineHeight:'1.5rem',marginTop:'10px',marginBottom: '20px'}}>
-                 Try Saying: Add Income/Expense for 7000Rs in Category Salary for Monday...
-                 </Typography>
                 <Divider/> 
                 <Form/>
              </CardContent>

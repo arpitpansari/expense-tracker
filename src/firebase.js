@@ -15,7 +15,7 @@ const app = firebase.initializeApp({
 
   const firestore = app.firestore();
   export const database = {
-
+                                                 
     users: firestore.collection('users')
     
   }

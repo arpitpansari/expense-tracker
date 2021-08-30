@@ -38,6 +38,7 @@ const Login = () => {
 
 
 
+   
     async function handlegoogle(e){
 
         e.preventDefault();
@@ -87,9 +88,9 @@ const Login = () => {
                </div>{" "}
               </Card.Body>
               </Form>
-               <Button disabled={Loading} variant="light" size="sm"  type="submit" onClick={handlegoogle}>
+               {/* <Button disabled={Loading} variant="light" size="sm"  type="submit" onClick={handlegoogle}>
                 <img className= " w-50 h-50" src="https://cdn.dribbble.com/users/1717214/screenshots/4124610/g-logo.gif" alt="google logo" />
-              </Button>
+              </Button> */}
            </Card.Body>
         </CenteredContainer>
        

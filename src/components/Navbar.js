@@ -24,7 +24,7 @@ export default function Navbar(props) {
                             {/* <Link style={{ float: 'right' }} className="nav-link active" aria-current="page" to="/login">Login</Link>
                             <Link style={{ float: 'right' }} className="nav-link active" aria-current="page" to="/signup">Signup</Link> */}
                             <label style={{marginRight: '2rem', marginTop:'8px'}} className={`text-${props.mode === 'dark' ? 'light' : 'dark'}`}>Dark Mode</label>
-                            <input style={{marginTop:'13px'}} onClick={props.toggleMode} className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+                            <input style={{marginTop:'13px'}} onClick={props.toggleMode} className="form-check-input" type="checkbox" id="flexSwitchCheckDefault"/>
                         </div>
                     </div>
                 </div>
